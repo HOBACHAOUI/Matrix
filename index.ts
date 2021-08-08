@@ -3,3 +3,14 @@
 //###########################   Programming Courses  ###################
 //######################################################################
 
+let mylist :number [ ] [ ] ; 
+let i : number ;
+let v : number ;
+mylist= [ ] ;
+for (i=0;i<4;i++){
+  mylist[i] = [ ]
+  for (v=0;v<3;v++){
+    mylist[i][v]=parseInt(prompt("أكتب رقما في السطر "+i+"رقما في العمود "+v));
+  }
+  console.log("mylist ["+i,v+"]="+[mylist] );
+}
